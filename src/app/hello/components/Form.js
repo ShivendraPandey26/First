@@ -48,7 +48,7 @@ const Form = () => {
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button className="text-white" type="submit">Submit</button>
       </form>
 
       {formData.name === "" ? <h1> Fill the form </h1> : <h1>Hello {formData.name} sir!!</h1>}
