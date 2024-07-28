@@ -23,9 +23,9 @@ const Form = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="text-black">
         <div>
-          <label htmlFor="name">Name:</label>
+          <label className="text-white" htmlFor="name">Name:</label>
           <br />
           <input
             type="text"
@@ -37,7 +37,7 @@ const Form = () => {
           />
         </div>
         <div>
-          <label htmlFor="email">Email:</label>
+          <label className="text-white" htmlFor="email">Email:</label>
           <br />
           <input
             type="email"
